@@ -10,8 +10,8 @@
         (nixpkgs + /nixos/modules/virtualisation/hyperv-guest.nix)
         ./hardware-configuration.nix
         { boot.loader.grub.device = "nodev";}
-        kiosk + /netfree.nix
-        kiosk + /kiosk.nix
+        (kiosk + /netfree.nix)
+        (kiosk + /kiosk.nix)
       ];
       specialArgs = attrs;
     };
