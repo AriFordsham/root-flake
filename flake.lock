@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "kiosk": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1689513387,
+        "narHash": "sha256-1MCX7uQ4TO33wG99gNPlirfCwNa77Mi7bX7qMTo7U+Q=",
+        "owner": "AriFordsham",
+        "repo": "kiosk-flake",
+        "rev": "d9cfe7c98df8fccc38ca7e64ae2061883a166397",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AriFordsham",
+        "repo": "kiosk-flake",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1688939073,
+        "narHash": "sha256-jYhYjeK5s6k8QS3i+ovq9VZqBJaWbxm7awTKNhHL9d0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8df7a67abaf8aefc8a2839e0b48f92fdcf69a38b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-23.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1689431009,
+        "narHash": "sha256-hPgQCRWP5q/Xc4qOIP3c2krR9nQua78+t9EDiuey5nc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "af8279f65fe71ce5a448408034a8c06e2b4b2c66",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-23.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "kiosk": "kiosk",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
