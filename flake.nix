@@ -7,7 +7,7 @@
     nixosConfigurations."nixos" = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
-        (nixpkgs + /nixos/modules/virtualisation/hyperv-guest.nix)
+        # (nixpkgs + /nixos/modules/virtualisation/hyperv-guest.nix)
         ./hardware-configuration.nix
         { boot.loader.grub.device = "nodev";}
         (kiosk + /netfree.nix)
